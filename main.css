@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.img {
+	max-width: 100%;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 150px;
+}
+
+.scene {
+	z-index: -1;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	min-height: 100vh;
+}
+
+.layer {
+		position: absolute;
+		left: -10%;
+		top: 0;
+		width: 110%;
+		height: 100%;
+}
+
+
+.layer-bg {
+background: rgb(0,177,189);
+background: linear-gradient(180deg, rgba(0,177,189,1) 29%, rgba(145,107,122,1) 38%, rgba(145,107,122,1) 47%, rgba(240,158,115,1) 57%, rgba(240,158,115,1) 67%, rgba(0,105,140,1) 74%, rgba(0,105,140,1) 81%, rgba(0,53,100,1) 86%, rgba(0,53,100,1) 95%, rgba(0,212,255,1) 100%);
+}
+
+.layer-4 {
+	background: url('parallaximg/nobg1.png') center no-repeat;
+	background-size: cover;
+}
+
+.layer-1 {
+	background: url('parallaximg/nobg3.png') center no-repeat;
+	background-size: cover;
+}
+ 
+.layer-2 {
+	background: url('parallaximg/nogb4.png') center no-repeat;
+	background-size: cover;
+}
+
+.layer-3 {
+	background: url('parallaximg/nobg2.png') center no-repeat;
+	background-size: cover;
+}
+
+
